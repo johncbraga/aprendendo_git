@@ -2,7 +2,7 @@
 alert('Hello World!');
 
 // Definição da variável onde o valor máximo utilizado no jogo será atribuido
-let valorMaximo = 10;
+let valorMaximo = 15;
 
 // Cria a variável do número secreto e gera um número aleatório
 let numeroSecreto = parseInt(Math.random() * valorMaximo + 1);
