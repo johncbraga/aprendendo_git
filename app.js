@@ -1,5 +1,5 @@
 // Breve introdução de iniciante.
-alert('Hello World!');
+alert('Bem vindo ao jogo do número secreto!');
 
 // Definição da variável onde o valor máximo utilizado no jogo será atribuido
 let valorMaximo = 10;
