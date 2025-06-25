@@ -12,7 +12,7 @@ let escolhaUser;
 let tentativas = 1;
 
 // Adiciona ao console (enquanto ferramenta do desenvolvedor) qual seria o número secreto.
-console.log(`O número secreto é ${numeroSecreto}`);
+console.log(`Dica secreta para devs: O número secreto está entre ${numeroSecreto-3} e ${numeroSecreto+3}`);
 
 // Verifica, a partir de um looping, se o número inserido pelo usuário é, ou não, igual ao número secreto.
 while (escolhaUser != numeroSecreto) {
