@@ -17,7 +17,7 @@ console.log(`Dica secreta para devs: O número secreto está entre ${numeroSecre
 // Verifica, a partir de um looping, se o número inserido pelo usuário é, ou não, igual ao número secreto.
 while (escolhaUser != numeroSecreto) {
     // debugger; -> Comando bem interessante, pausa a execução
-    escolhaUser = Number(prompt(`Digite um número entre 1 e ${valorMaximo}: `));
+    escolhaUser = Number(prompt(`Escolha um valor entre 1 e ${valorMaximo}`));
     // Caso o usuário tenha acertado o número, um comando BREAK será chamado para finalizar o loop.
     if (escolhaUser === numeroSecreto) {
         break;
