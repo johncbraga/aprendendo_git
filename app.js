@@ -12,12 +12,13 @@ let escolhaUser;
 let tentativas = 1;
 
 // Adiciona ao console (enquanto ferramenta do desenvolvedor) qual seria o número secreto.
-console.log(`O número secreto é ${numeroSecreto}`);
+//console.log(`O número secreto é ${numeroSecreto}`);
+alert(`Para advinhar o número secreto escolha um valor entre 1 e ${valorMaximo}!`);
 
 // Verifica, a partir de um looping, se o número inserido pelo usuário é, ou não, igual ao número secreto.
 while (escolhaUser != numeroSecreto) {
     // debugger; -> Comando bem interessante, pausa a execução
-    escolhaUser = Number(prompt(`Digite um número entre 1 e ${valorMaximo}: `));
+    escolhaUser = Number(prompt('Sua escolha:'));
     // Caso o usuário tenha acertado o número, um comando BREAK será chamado para finalizar o loop.
     if (escolhaUser === numeroSecreto) {
         break;
